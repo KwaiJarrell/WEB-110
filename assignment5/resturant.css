@@ -1,0 +1,139 @@
+.index {
+  background-color: #fdffb6;
+}
+
+.about {
+  background-color: #ffd6a5;
+}
+
+.menu {
+  background-color: #caffbf;
+}
+
+.contact {
+  background-color: #9bf6ff;
+}
+.purple{
+  background-color: #bdb2ff;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+.button {
+    background-color: #bdb2ff;
+    border: none;
+    border-radius:10px;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    margin-bottom: 3rem; 
+}    
+.button:hover{
+
+    background-color:#ffadad;
+
+}
+
+.title{
+  text-align: center;
+}
+
+.menutitle{
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p {
+    justify-content: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-indent: 2rem;
+    font-size: 1.15em; 
+  }
+
+h4 {
+ text-align: center;
+}
+
+li{
+    margin-bottom: 1rem;
+}
+
+footer{
+    font-size: .7em;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #ffadad; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+  }
+  
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  
+  .main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+ 
+ .flex-container{
+  padding: 1rem;
+ } 
+
+.flex-left {
+  width: 20%;
+}
+
+.flex-right {
+  width: 80%;
+}
+
+.flex-top{
+  height: 10%;
+  text-align: center;
+}
+.flex-bottom{
+  height: 90%;
+  font-size: 1.2em; 
+}

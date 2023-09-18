@@ -102,7 +102,7 @@ footer{
   
 
   .sidenav a:hover {
-    color: #f1f1f1;
+    color:#fdffb6;
   }
   
   
@@ -119,6 +119,8 @@ footer{
  
  .flex-container{
   padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
  } 
 
 .flex-left {

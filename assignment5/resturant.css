@@ -13,7 +13,7 @@
 .contact {
   background-color: #9bf6ff;
 }
-.purple{
+.location{
   background-color: #bdb2ff;
 }
 
@@ -138,4 +138,16 @@ footer{
 .flex-bottom{
   height: 90%;
   font-size: 1.2em; 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30rem;
+  margin-left: 30rem;  
+}
+
+button{
+  display: flex;
+  
 }

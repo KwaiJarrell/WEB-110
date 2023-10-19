@@ -1,0 +1,294 @@
+/*
+Color pallete
+ff0000
+ff8700
+ffd300
+deff0a
+a1ff0a
+0aff99
+0aefff
+147df5
+580aff
+be0aff
+*/
+
+/* Background Color Section */
+body {
+    background-color: black;
+}
+
+/* Navigation Section */
+.flex-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+.button {
+    background-color: #147df5;
+    border: none;
+    border-radius:10px;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    margin-bottom: 3rem;
+}    
+.button:hover{
+    background-color:#0aefff;
+    -webkit-transform: translateY(-3px);
+	transform: translateY(-3px);
+}   
+
+/* Animated Headers */
+header {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+#text-drop {
+    position: relative;
+    display: flex;
+    font-size:100px;
+    font-family: arial;
+    font-weight: 900;
+  }  
+  
+.l1 {
+    opacity:0;
+    animation: drop .4s linear forwards;
+    color: #ff0000;
+}
+  
+.l2{
+    opacity:0;
+    animation: drop .4s linear forwards .2s;
+    color: #ff8700;
+    
+}
+  
+.l3 {
+    opacity:0;
+    animation: drop .4s linear forwards .4s;
+    color: #ffd300;
+}
+  
+.l4 {
+    opacity:0;
+    animation: drop .4s linear forwards .6s;
+    color: #deff0a;
+}
+  
+.l5 {
+    opacity:0;
+    animation: drop .4s linear forwards .8s;
+    color: #a1ff0a;
+}
+
+.l6 {
+    opacity:0;
+    animation: drop .4s linear forwards 1s;
+    color: #0aff99;
+}
+  
+.l7 {
+    opacity:0;
+    animation: drop .4s linear forwards 1.2s;
+    color: #0aefff;
+}
+  
+.l8 {
+    opacity:0;
+    animation: drop .4s linear forwards 1.4s;
+    color: #147df5;
+}
+  
+.l9 {
+    opacity:0;
+    animation: drop .4s linear forwards 1.6s;
+    color: #580aff;
+}
+  
+.l10 {
+    opacity:0;
+    animation: drop .4s linear forwards 1.8s;
+    color: #be0aff;
+}
+
+.l11 {
+    opacity:0;
+    animation: drop .4s linear forwards 2s;
+    color: #571089;
+}
+
+@keyframes drop {
+    0% {transform: translateY(-200px) scaleY(0.9); opacity: 0;}
+    5% {opacity: .7;}
+    50% {transform: translateY(0px) scaleY(1); opacity: 1;}
+    65% {transform: translateY(-17px) scaleY(.9); opacity: 1;}
+    75% {transform: translateY(-22px) scaleY(.9); opacity: 1;}
+    100% {transform: translateY(0px) scaleY(1); opacity: 1;}
+  }
+
+/* Home page styling */  
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+
+.link{
+    text-align: center;
+    display: block; 
+    margin-bottom: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+  
+.box1 {
+    background-color: #ff0000;
+    height: 25rem;
+    margin: 2rem;
+}
+
+.box1:hover {
+    margin: .5rem;
+}
+  
+.box2 {
+    background-color: #ff8700;
+    height: 25rem;
+    margin: 2rem;
+}
+
+.box2:hover {
+    margin: .5rem;
+}
+
+.box3 {
+    background-color: #ffd300;
+    height: 25rem;
+    margin: 2rem;
+}
+
+.box3:hover {
+    margin: .5rem;
+}
+  
+.box4 {
+    background-color: #deff0a;
+    height: 25rem;
+    margin: 2rem;
+}
+
+.box4:hover {
+    margin: .5rem;
+}
+
+.box5 {
+    background-color: #a1ff0a;
+    height: 25rem;
+    margin: 2rem;
+}
+
+.box5:hover {
+    margin: .5rem;
+}
+  
+.box6 {
+    background-color: #0aff99;
+    height: 25rem;
+    margin: 2rem;
+}
+
+.box6:hover {
+    margin: .5rem;
+}
+
+.box7 {
+    background-color: #0aefff;
+    height: 25rem;
+    margin: 2rem;
+}
+
+.box7:hover {
+    margin: .5rem;
+}
+  
+.box8 {
+    background-color: #147df5;
+    height: 25rem;
+    margin: 2rem;
+}
+
+.box8:hover {
+    margin: .5rem;
+}
+
+.box9 {
+    background-color: #580aff;
+    height: 25rem;
+    margin: 2rem;
+}
+
+.box9:hover {
+    margin: .5rem;
+}
+  
+.box10 {
+    background-color: #be0aff;
+    height: 25rem;
+    margin: 2rem;
+}
+
+.box10:hover {
+    margin: .5rem;
+}
+
+/* Link Hover Animation*/
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active{
+    text-decoration: underline;
+  }

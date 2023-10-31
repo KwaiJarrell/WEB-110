@@ -1,16 +1,43 @@
-/*
-Color pallete
-ff0000
-ff8700
-ffd300
-deff0a
-a1ff0a
-0aff99
-0aefff
-147df5
-580aff
-be0aff
-*/
+/*Color Classes*/
+.red{
+    color:#ff0000;
+}
+
+.orange{
+    color:#ff8700; 
+}
+
+.lightOrange{
+    color:#ffd300;
+}
+
+.yellow{
+    color:#deff0a;
+}
+
+.green{
+    color:#a1ff0a;
+}
+
+.aqua{
+    color:#0aff99;
+}
+
+.lightBlue{
+    color:#0aefff;
+}
+
+.darkBlue{
+    color:#147df5;
+}
+
+.lightPurple{
+    color:#580aff;
+}
+
+.darkPurple{
+    color:#be0aff;
+}
 
 /* Background Color Section */
 body {
@@ -275,20 +302,78 @@ h3 {
     margin: .5rem;
 }
 
-/* Link Hover Animation*/
+/* Link Hover*/
 
 a:link {
     text-decoration: none;
-  }
+    font-size: 110%;
+    font-weight: bold;
+}
   
-  a:visited {
+a:visited {
     text-decoration: none;
-  }
+}
   
-  a:hover {
+a:hover {
     text-decoration: underline;
-  }
+}
   
-  a:active{
+a:active{
     text-decoration: underline;
-  }
+}
+
+
+/*About, Contact, Resource Page*/
+
+.flex-page{
+    display: flex;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    padding: 2rem;
+}
+
+.flex-page:hover{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.about{
+    background-image: linear-gradient(to right,#ff0000, #ff8700, #ffd300, #deff0a,
+    #a1ff0a,#0aff99, #0aefff);
+    height: 8rem;   
+}
+
+.contact{
+    background-image: linear-gradient(to right, #ffd300, #deff0a,
+    #a1ff0a,#0aff99, #0aefff, #147df5, #580aff);
+    height: 8rem;   
+}
+
+.resources{
+    background-image: linear-gradient(to right, #ffd300, #deff0a,
+    #a1ff0a,#0aff99, #0aefff, #147df5, #580aff, #be0aff);
+    height: 18rem;   
+}
+
+p{
+    text-align: left;
+    text-indent: 30pt;
+    letter-spacing: 1px;
+    font-family: fantasy;
+    
+}
+
+ul{
+    text-align: left;
+    letter-spacing: 1px;
+    font-family: fantasy;
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+}
+
+footer{
+    color:white;
+    bottom: 0;
+    text-align: ;
+}

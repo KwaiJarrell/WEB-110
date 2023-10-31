@@ -7,6 +7,17 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 
     viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js">
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('#text-drop').mouseleave(function(){
+                $(this).removeClass('clicked');
+            }).click(function(){
+                $(this).addClass('clicked').html($(this).html());
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -33,6 +44,32 @@
             <div class="l11">s</div>
           </div>
     </header>
+
+    <section>
+
+        <div class="flex-page resources">
+            <ul>
+                <li><a href="https://www.w3schools.com/">https://www.w3schools.com/</a></li> <br>
+                <li><a href="https://coolors.co/">https://coolors.co/</a></li> <br>
+                <li><a href="https://css-tricks.com/emoji-as-a-favicon/">
+                    https://css-tricks.com/emoji-as-a-favicon//a></li> <br>
+                <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">
+                    https://css-tricks.com/snippets/css/a-guide-to-flexbox/</a></li> <br>
+                <li><a href="https://lenadesign.org/2022/01/07/css-text-drop-animation/">
+                    https://lenadesign.org/2022/01/07/css-text-drop-animation/</a></li> <br>
+                    <li><a href="https://rafaltomal.com/tips/move-button-on-hover/">
+                        https://rafaltomal.com/tips/move-button-on-hover/</a></li> <br>
+                <li><a href="https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01">
+                    https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01</a></li>
+            </ul>
+        </div>
+
+    </section>
     
 </body>
+
+<footer>
+    <p>&copy; 2023 Kwai Jarrell</p>
+</footer>
+
 </html>

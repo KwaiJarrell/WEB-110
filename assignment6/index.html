@@ -7,18 +7,18 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 
     viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="jquery" href="scripts/header.js">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js">
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('#text-drop').mouseleave(function(){
+                $(this).removeClass('clicked');
+            }).click(function(){
+                $(this).addClass('clicked').html($(this).html());
+            });
+        });
+    </script>
 </head>
-
-<!--text Animation website links
-https://lenadesign.org/2022/01/07/css-text-drop-animation/
-https://rafaltomal.com/tips/move-button-on-hover/
--->
-<!--Flecbox link
-https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01
--->
-
-
 
 <body>
 
@@ -53,22 +53,26 @@ https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k
             <div class="row">
                 <div class="column">
                     <div class="box1">
-                        <h1>Hello World</h1>
-                        <img src="images/Coming Soon.png"  alt="Coming Soon" style="width:300px;height:200px;" 
+                        <h1 class="yellow">Hello World</h1>
+                        <img src="images/Hello World.PNG"  alt="Coming Soon" style="width:300px;height:200px;" 
                         class="center">
                         <a href="https://kwaijarrell.github.io/WEB-110/" 
-                        class="link">Link to Hello World</a>
+                        class="link yellow">Link to Hello World</a>
+                        <a href="https://github.com/KwaiJarrell/WEB-110/blob/main/hello.html" 
+                        class="link yellow">Link to Code Repo</a>
                         
                     </div>
 
                 </div>
                 <div class="column">
                     <div class="box2">
-                        <h1>Link and a Photo</h1>
-                        <img src="images/Coming Soon.png"  alt="Coming Soon" style="width:300px;height:200px;" 
+                        <h1 class="green">Link and a Photo</h1>
+                        <img src="images/Assignment1.PNG"  alt="Coming Soon" style="width:300px;height:200px;" 
                         class="center">
                         <a href="https://kwaijarrell.github.io/WEB-110/assignment1/assignment1.html" 
-                        class="link">Link to Assignment 1</a>
+                        class="link green">Link to Assignment 1</a>
+                        <a href="https://github.com/KwaiJarrell/WEB-110/tree/main/assignment1" 
+                        class="link green">Link to Code Repo</a>
                     </div>
                 </div>
             </div>
@@ -76,21 +80,25 @@ https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k
             <div class="row">
                 <div class="column">
                     <div class="box3">
-                        <h1>My Favorite Websites</h1>
-                        <img src="images/Coming Soon.png"  alt="Coming Soon" style="width:300px;height:200px;" 
+                        <h1 class ="red">My Favorite Websites</h1>
+                        <img src="images/Assignment2.PNG"  alt="Coming Soon" style="width:300px;height:200px;" 
                         class="center">
                         <a href="https://kwaijarrell.github.io/WEB-110/assignment2/assignment2.html" 
-                        class="link">Link to Assignment 2</a>
+                        class="link red">Link to Assignment 2</a>
+                        <a href="https://github.com/KwaiJarrell/WEB-110/tree/main/assignment2" 
+                        class="link red">Link to Code Repo</a>
                     </div>
 
                 </div>
                 <div class="column">
                     <div class="box4">
-                        <h1>Hypertext Band Website</h1>
-                        <img src="images/Coming Soon.png"  alt="Coming Soon" style="width:300px;height:200px;" 
+                        <h1 class="orange">Hypertext Band Website</h1>
+                        <img src="images/Assignment3.PNG"  alt="Coming Soon" style="width:300px;height:200px;" 
                         class="center">
                         <a href="https://kwaijarrell.github.io/web-110-Barnes/hypertext.html" 
-                        class="link">Link to Assignment 3</a>
+                        class="link orange">Link to Assignment 3</a>
+                        <a href="https://github.com/KwaiJarrell/WEB-110/tree/main/assignment3" 
+                        class="link orange">Link to Code Repo</a>
                     </div>
                 </div>
             </div>
@@ -98,22 +106,26 @@ https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k
             <div class="row">
                 <div class="column">
                     <div class="box5">
-                        <h1>Jarrell's Resturant Website</h1>
-                        <img src="images/Coming Soon.png"  alt="Coming Soon" style="width:300px;height:200px;" 
+                        <h1 class="lightPurple">Jarrell's Resturant Website</h1>
+                        <img src="images/Assignment4.PNG"  alt="Coming Soon" style="width:300px;height:200px;" 
                         class="center">
                         <a href="https://kwaijarrell.github.io/WEB-110/assignment4/index.html" 
-                        class="link">Link to Assignment 4</a>
+                        class="link lightPurple">Link to Assignment 4</a>
+                        <a href="https://github.com/KwaiJarrell/WEB-110/tree/main/assignment4" 
+                        class="link lightPurple">Link to Code Repo</a>
                     </div>
 
                 </div>
                 <div class="column">
                     <div class="box6">
-                        <h1>Jarrell's Resturant Website</h1>
-                        <h3>with Improved Menu and Location  Page </h3>
-                        <img src="images/Coming Soon.png"  alt="Coming Soon" style="width:300px;height:200px;" 
+                        <h1 class="darkPurple">Jarrell's Resturant Website</h1>
+                        <h3 class="darkPurple">with Improved Menu and Location  Page </h3>
+                        <img src="images/Assignment5.PNG"  alt="Coming Soon" style="width:300px;height:200px;" 
                         class="center">
                         <a href="https://kwaijarrell.github.io/WEB-110/assignment5/index.html" 
-                        class="link">Link to Assignment 5</a>
+                        class="link darkPurple">Link to Assignment 5</a>
+                        <a href="https://github.com/KwaiJarrell/WEB-110/tree/main/assignment3" 
+                        class="link darkPurple">Link to Code Repo</a>
                     </div>
                 </div>
             </div>
@@ -121,7 +133,7 @@ https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k
             <div class="row">
                 <div class="column">
                     <div class="box7">
-                        <h1>Coming Soon</h1>
+                        <h1 class="darkBlue">Coming Soon</h1>
                         <img src="images/Coming Soon.png"  alt="Coming Soon" style="width:300px;height:200px;" 
                         class="center">
                     </div>
@@ -129,7 +141,7 @@ https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k
                 </div>
                 <div class="column">
                     <div class="box8">
-                        <h1>Coming Soon</h1>
+                        <h1 class="lightBlue">Coming Soon</h1>
                         <img src="images/Coming Soon.png"  alt="Coming Soon" style="width:300px;height:200px;" 
                         class="center">
                     </div>
@@ -139,7 +151,7 @@ https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k
             <div class="row">
                 <div class="column">
                     <div class="box9">
-                        <h1>Coming Soon</h1>
+                        <h1 class="green">Coming Soon</h1>
                         <img src="images/Coming Soon.png"  alt="Coming Soon" style="width:300px;height:200px;" 
                         class="center">
                     </div>
@@ -147,7 +159,7 @@ https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k
                 </div>
                 <div class="column">
                     <div class="box10">
-                        <h1>Coming Soon</h1>
+                        <h1 class="aqua">Coming Soon</h1>
                         <img src="images/Coming Soon.png"  alt="Coming Soon" style="width:300px;height:200px;" 
                         class="center">
                     </div>
@@ -156,6 +168,10 @@ https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k
        </div>
     </section>
 
-
 </body>
+
+<footer>
+    <p>&copy; 2023 Kwai Jarrell</p>
+</footer>
+
 </html>

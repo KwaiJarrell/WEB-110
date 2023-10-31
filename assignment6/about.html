@@ -7,6 +7,17 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 
     viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js">
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('#text-drop').mouseleave(function(){
+                $(this).removeClass('clicked');
+            }).click(function(){
+                $(this).addClass('clicked').html($(this).html());
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -33,5 +44,25 @@
           </div>
     </header>
 
+    <section>
+
+        <div class="flex-page about">
+            <p>
+                My name is Kwai Jarrell and I'm currently a Durham Tech student studying software devolpment.
+                This is for my WEB 110 class. I'm 33 years old and in my spare time I like to game. My game of
+                choice is Old School Runescape. I work full time for Durham Public Schools as a Data Manger and 
+                on the weekends I work with my brother on estate sales. I hope to work one day in the tech field
+                as a software developer. <br>
+            </p>
+
+        </div>
+
+    </section>
+
 </body>
+
+<footer>
+    <p>&copy; 2023 Kwai Jarrell</p>
+</footer>
+
 </html>
